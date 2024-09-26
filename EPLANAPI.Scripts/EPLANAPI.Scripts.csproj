@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	  <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Eplan.EplApi.AFu">
+      <HintPath>..\references\EPLAN\Eplan.EplApi.AFu.dll</HintPath>
+    </Reference>
+    <Reference Include="Eplan.EplApi.Baseu">
+      <HintPath>..\references\EPLAN\Eplan.EplApi.Baseu.dll</HintPath>
+    </Reference>
+    <Reference Include="Eplan.EplApi.Guiu">
+      <HintPath>..\references\EPLAN\Eplan.EplApi.Guiu.dll</HintPath>
+    </Reference>
+    <Reference Include="Eplan.EplApi.MasterDatau">
+      <HintPath>..\references\EPLAN\Eplan.EplApi.MasterDatau.dll</HintPath>
+    </Reference>
+    <Reference Include="Eplan.IdentityClient.Authentification">
+      <HintPath>..\references\EPLAN\Eplan.IdentityClient.Authentification.dll</HintPath>
+    </Reference>
+    <Reference Include="Eplan.IdentityClient.Types">
+      <HintPath>..\references\EPLAN\Eplan.IdentityClient.Types.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
