@@ -399,3 +399,7 @@ FodyWeavers.xsd
 
 # Reference
 /references
+/eplan_api_contents/EPLAN 2024.0.3.21408/*.dll
+/eplan_api_contents/EPLAN 2024.0.3.21408/*.xml
+/eplan_api_contents/EPLAN 2024.0.3.21408/*.exe
+/eplan_api_contents/EPLAN 2024.0.3.21408/*.bat

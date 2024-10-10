@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+	<metadata>
+		<id>EplanEplApi.P8</id>
+		<version>2024.0.4.21408</version>
+		<authors>EPLAN</authors>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<!-- <icon>icon.png</icon> -->
+		<projectUrl>https://github.com/weianweigan/EPLAN-API-Tutorial</projectUrl>
+		<icon>icon.png</icon>
+		<description>EPLAN API Assemblies</description>
+		<readme>Readme.md</readme>
+		<releaseNotes>
+			EPLAN Electric P8 2024.0.3.21408;
+			Includes these assemblies and xml files:
+			* Eplan.EplApi.AFu.dll
+			* Eplan.EplApi.Baseu.dll
+			* Eplan.EplApi.DataModelu.dll
+			* Eplan.EplApi.EServicesu.dll
+			* Eplan.EplApi.Guiu.dll
+			* Eplan.EplApi.HEServicesu.dll
+			* Eplan.EplApi.MasterDatau.dll
+			* Eplan.EplApi.RemoteClientu.dll
+			* Eplan.EplApi.Remotingu.dll
+			* Eplan.EplApi.Starteru.dll
+			* Eplan.EplApi.Systemu.dll
+			* Eplan.IdentityClient.Authentification.dll
+			* Eplan.IdentityClient.Types.dll
+		</releaseNotes>
+		<copyright>$copyright$</copyright>
+		<tags>EPLAN Eplan EPLAN.API</tags>
+	</metadata>
+
+	<files>
+		<file src="Eplan.EplApi.AFu.dll" target="lib\net481\Eplan.EplApi.AFu.dll" />
+		<file src="Eplan.EplApi.Baseu.dll" target="lib\net481\Eplan.EplApi.Baseu.dll" />
+		<file src="Eplan.EplApi.DataModelu.dll" target="lib\net481\Eplan.EplApi.DataModelu.dll" />
+		<file src="Eplan.EplApi.EServicesu.dll" target="lib\net481\Eplan.EplApi.EServicesu.dll" />
+		<file src="Eplan.EplApi.Guiu.dll" target="lib\net481\Eplan.EplApi.Guiu.dll" />
+		<file src="Eplan.EplApi.HEServicesu.dll" target="lib\net481\Eplan.EplApi.HEServicesu.dll" />
+		<file src="Eplan.EplApi.MasterDatau.dll" target="lib\net481\Eplan.EplApi.MasterDatau.dll" />
+		<file src="Eplan.EplApi.RemoteClientu.dll" target="lib\net481\Eplan.EplApi.RemoteClientu.dll" />
+		<file src="Eplan.EplApi.Remotingu.dll" target="lib\net481\Eplan.EplApi.Remotingu.dll" />
+		<file src="Eplan.EplApi.Starteru.dll" target="lib\net481\Eplan.EplApi.Startu.dll" />
+		<file src="Eplan.EplApi.Systemu.dll" target="lib\net481\Eplan.EplApi.Systemu.dll" />
+		<file src="Eplan.IdentityClient.Authentification.dll" target="lib\net481\Eplan.IdentityClient.Authentification.dll" />
+		<file src="Eplan.IdentityClient.Types.dll" target="lib\net481\Eplan.IdentityClient.Types.dll" />
+		
+		<file src="icon.png" target="" />
+		<file src="Readme.md" target="" />
+	</files>
+</package>

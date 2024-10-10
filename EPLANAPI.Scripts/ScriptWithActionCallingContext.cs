@@ -15,9 +15,9 @@ namespace EPLANAPI.Scripts
         [Start]
         public void FunctionWithActionCallingContext(ActionCallingContext ctx)
         {
-            string param1 = null;
-            string param2 = null;
-            string param3 = null;
+            string? param1 = null;
+            string? param2 = null;
+            string? param3 = null;
 
             ctx.GetParameter("param1", ref param1);
             ctx.GetParameter("param2", ref param2);
