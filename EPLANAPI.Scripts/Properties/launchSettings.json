@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Eplan": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Program Files\\EPLAN\\Electric P8\\2024.0.3\\Bin\\W3u.exe"
+    }
+  }
+}
