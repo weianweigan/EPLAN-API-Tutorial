@@ -1,10 +1,19 @@
 ﻿using Eplan.EplApi.ApplicationFramework;
-using Eplan.EplApi.EServices;
-using System.Diagnostics;
 using System.Windows;
 
 namespace EPLANAPI.EplAddin.SampleAddin;
 
+/// <summary>
+/// 插件注册和卸载流程：
+/// <list type="bullet">
+/// <item>
+/// 注册调用顺序：<see cref="OnRegister(ref bool)"/> -> <see cref="OnInit"/> -> <see cref="OnInitGui"/>
+/// </item>
+/// <item>
+/// 卸载调用顺序：<see cref="OnExit"/> -> <see cref="OnUnregister"/>
+/// </item>
+/// </list>
+/// </summary>
 public class AddInModule : IEplAddIn
 {
     public bool OnExit()
@@ -29,10 +38,8 @@ public class AddInModule : IEplAddIn
     /// <returns></returns>
     public bool OnRegister(ref bool bLoadOnStart)
     {
-        Debugger.Break();
-        string path = typeof(AddInModule).Assembly.Location;
-        MessageBox.Show(path);
         bLoadOnStart = true;
+        MessageBox.Show(typeof(AddInModule).Assembly.Location);
         return true;
     }
 

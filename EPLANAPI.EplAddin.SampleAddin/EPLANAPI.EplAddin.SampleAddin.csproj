@@ -7,60 +7,52 @@
 	<LangVersion>latest</LangVersion>
 	<PlatformTarget>x64</PlatformTarget>
 	<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
-	<!--<OutputPath>C:\Program Files\EPLAN\Platform\2024.0.3\Bin</OutputPath>-->
+	<!--<OutputPath>C:\Program Files\EPLAN2.9.4\Platform\2024.0.3\Bin</OutputPath>-->
   </PropertyGroup>
 
   <ItemGroup>
     <Reference Include="Eplan.EplApi.AFu">
-      <HintPath>..\references\EPLAN\Eplan.EplApi.AFu.dll</HintPath>
+      <HintPath>..\references\EPLAN2.9.4\Eplan.EplApi.AFu.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Eplan.EplApi.Baseu">
-      <HintPath>..\references\EPLAN\Eplan.EplApi.Baseu.dll</HintPath>
+      <HintPath>..\references\EPLAN2.9.4\Eplan.EplApi.Baseu.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Eplan.EplApi.DataModelu">
-      <HintPath>..\references\EPLAN\Eplan.EplApi.DataModelu.dll</HintPath>
+      <HintPath>..\references\EPLAN2.9.4\Eplan.EplApi.DataModelu.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Eplan.EplApi.EServicesu">
-      <HintPath>..\references\EPLAN\Eplan.EplApi.EServicesu.dll</HintPath>
+      <HintPath>..\references\EPLAN2.9.4\Eplan.EplApi.EServicesu.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Eplan.EplApi.Guiu">
-      <HintPath>..\references\EPLAN\Eplan.EplApi.Guiu.dll</HintPath>
+      <HintPath>..\references\EPLAN2.9.4\Eplan.EplApi.Guiu.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Eplan.EplApi.HEServicesu">
-      <HintPath>..\references\EPLAN\Eplan.EplApi.HEServicesu.dll</HintPath>
+      <HintPath>..\references\EPLAN2.9.4\Eplan.EplApi.HEServicesu.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Eplan.EplApi.MasterDatau">
-      <HintPath>..\references\EPLAN\Eplan.EplApi.MasterDatau.dll</HintPath>
+      <HintPath>..\references\EPLAN2.9.4\Eplan.EplApi.MasterDatau.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Eplan.EplApi.RemoteClientu">
-      <HintPath>..\references\EPLAN\Eplan.EplApi.RemoteClientu.dll</HintPath>
+      <HintPath>..\references\EPLAN2.9.4\Eplan.EplApi.RemoteClientu.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Eplan.EplApi.Remotingu">
-      <HintPath>..\references\EPLAN\Eplan.EplApi.Remotingu.dll</HintPath>
+      <HintPath>..\references\EPLAN2.9.4\Eplan.EplApi.Remotingu.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Eplan.EplApi.Starteru">
-      <HintPath>..\references\EPLAN\Eplan.EplApi.Starteru.dll</HintPath>
+      <HintPath>..\references\EPLAN2.9.4\Eplan.EplApi.Starteru.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Eplan.EplApi.Systemu">
-      <HintPath>..\references\EPLAN\Eplan.EplApi.Systemu.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Eplan.IdentityClient.Authentification">
-      <HintPath>..\references\EPLAN\Eplan.IdentityClient.Authentification.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Eplan.IdentityClient.Types">
-      <HintPath>..\references\EPLAN\Eplan.IdentityClient.Types.dll</HintPath>
+      <HintPath>..\references\EPLAN2.9.4\Eplan.EplApi.Systemu.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="PresentationFramework" />

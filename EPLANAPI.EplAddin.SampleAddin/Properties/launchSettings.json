@@ -2,7 +2,7 @@
   "profiles": {
     "Eplan": {
       "commandName": "Executable",
-      "executablePath": "C:\\Program Files\\EPLAN\\Platform\\2024.0.3\\Bin\\Eplan.exe",
+      "executablePath": "C:\\Program Files\\EPLAN\\Platform\\2.9.4\\Bin\\EPLAN.exe",
       "commandLineArgs": "/Variant:\"Electric P8\" /NoLicenseDialog"
     }
   }
